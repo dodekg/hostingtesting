@@ -17,6 +17,11 @@ footer
 
 }
 
+h3
+{
+
+}
+
 h2
 {
 	font-family: 'Oswald', sans-serif;
@@ -159,6 +164,55 @@ p
 {
 	opacity: 0.7;
 }
+
+.width50
+{
+	width:50%;
+}
+
+.width60
+{
+	width:60%;
+}
+
+.width70
+{
+	width:70%;
+}
+
+.width28
+{
+	width:28%;
+}
+
+.width80
+{
+	width:80%;
+}
+
+.fll
+{
+	display:float-left;
+}
+
+.flr
+{
+	display:far-right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
