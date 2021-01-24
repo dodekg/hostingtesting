@@ -78,16 +78,11 @@ p
 {
 	/*background-color:#2B4A6F;*/
 	background-color:#72767C;
-	color:#FFFFFF;
 }
 
 .card2
 {
-	/*Ruth request*/
-	/*background-color:#AA9339;*/
-	
-	background-color:#FFFFFF;
-	
+	background-color:#AA9339;
 }
 
 
@@ -123,7 +118,7 @@ p
 }
 
 #myimg:hover {
-    content: url('../images/inLeisure/waverleysigndark.jpg');
+    content: url('../images/inLeisure/DSC_0114.jpg');
 }
 
 .MyBtn
