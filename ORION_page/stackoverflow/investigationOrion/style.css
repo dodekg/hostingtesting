@@ -1,0 +1,106 @@
+
+.barcolor
+{
+	background-color:#082601; /*  !important;*/
+	/*+++color:green;*/
+}
+
+.navbar-light
+{
+	background-color:green;
+	
+}
+
+.nav-item
+{
+	margin-left:10px;
+	margin-right:10px;
+	border:2px solid green;
+	border-radius:20px;
+	width:150px;
+	text-align:center;
+}
+
+.nav-item:hover
+{
+	background-color:green;
+	
+}
+
+
+.nav-link
+{
+	text-decoration:none;
+	color:green;/*if you will give it !important it will reverse effect :(  */
+}
+
+
+.nav-link:hover
+{
+	text-decoration:none;
+	color:#082601;
+}
+
+
+
+.navbar-nav
+{
+	margin-left:10px;
+
+}
+
+.nav-item dropdown
+{
+	border-radius:20px;
+	/*+++background-color:#082601;*/
+	
+}
+
+
+.dropdown-menu
+{
+		background-color:transparent;
+		border:none;
+
+
+}
+
+
+
+
+.dropdown-item
+{
+	margin-left:10px;
+	margin-right:10px;
+	border:2px solid green;
+	border-radius:20px;
+	width:150px;
+	text-align:center;
+	background-color:#082601;
+	color:green;
+}
+
+.dropdown-item:hover
+{
+	margin-left:10px;
+	margin-right:10px;
+	border:2px solid green;
+	border-radius:20px;
+	width:150px;
+	text-align:center;
+	background-color:green;
+	color:#082601;
+}
+
+.dropdown-item:hover > a
+{
+	color:#082601;
+}
+
+.bgcolorful
+{
+	color:green;
+}
+
+
+

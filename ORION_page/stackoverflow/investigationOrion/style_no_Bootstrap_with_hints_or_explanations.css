@@ -1,0 +1,156 @@
+
+#outUl
+{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	display:inline-block;
+	background-color:transparent;/*this is quite important!!! */
+}
+
+/*----- replacement for (#outUl > li > a) ----- solution from the internet -------------*/
+#outUl a
+{
+	color:green; /*red*/
+	text-decoration: none;
+	display: block;
+}
+/*------------------------------------------------------------------------------------------------------------*/
+
+#outUl > li
+{
+		float:left;
+		/*only for anchor points --> color:green; */
+		height:30px;
+		/*list-style-type:none;*/
+		border:1px solid green;
+		border-radius:10px;
+		background-color:#082601;
+
+
+}
+
+
+/*-----------This part doesnt exist in a correct solution from the internet ;) ---------*/
+
+#outUl > li > a
+{
+		/*
+		text-decoration:none;
+		color:green;
+		background-color:#082601;
+		border:1px solid green;
+		border-radius:10px;
+		display:block;*/
+		
+		/*border-top:0px;*/
+		
+}
+/*----------------------------------------------------------------------*/
+
+
+
+
+/* ------ cosmetics -> mistake is not here ---------*/
+#outUl > li:hover
+{
+	background-color:green;
+}
+#outUl > li:hover > a
+{
+	color:#082601
+}
+/*----------------------------------------------------------------------*/
+
+
+/*Dont know why but it produces additional border - code below gets rid of it 
+#outUl > #liRightBorder > a 
+{border-right:none;
+border-top:none;}
+#outUl > li > ol > #liLeftBorder > a 
+{border-left:none;
+border-bottom:none;}
+------------------------------------------------------------------------------------------------------------------*/
+
+
+/* it was: (#outUl > li > ol > li) */
+
+#outUl > li > ol
+{
+		padding:0;
+		margin:0;
+		height:30px;/*this height is important ! changes visual efect on menu*/
+		/*only for anchor points --> color:green; */
+		/*only for list items --> background-color:#082601;*/   
+		/* YES!!! --- ONCE I CHANGED THIS IT IMPROVED 
+		SO GOLDEN RULE: <a> => color , <li> => background-color!!! */
+		list-style-type:none;
+/*new (cosmetics)*/display:none;
+
+}
+
+
+/*STILL i DO NOT UNDERSTAND WHY  THE "CONTENT" TAB IN A MENU USED TO DISAPPEAR 
+   ----> THE MOST PROBABLE EXPLENATION IS THAT THE GOLDEN RULE HAS BEEN ALTERED
+   GOLDEN RULE: CHANGE Background-color in <li> (child tag) CHANGE color in <a> (child tag)  */
+   
+   
+/*old ----->  HERE IS THE MISTAKE!!!!
+#outUl > li > ol > li > a
+{
+		text-decoration:none;
+		color:green;
+		background-color:#082601;	
+		display:block;
+		border:1px solid green;
+		border-radius:10px;
+}
+*/
+/*new ---> mistake is also here*/
+#outUl > li:hover > ol
+{
+	display: block;
+}
+
+/*new (#outUl > li > ol > li )(#outUl > li > ol > li:hover)*/
+#outUl > li > ol > li 
+{
+		/*not neccesairly needed -> text-decoration:none;  */
+		/* only for anchor -> color:green; */
+		background-color:#082601;	
+		position:relative;
+		z-index:100;
+		border:1px solid green;
+		border-radius:10px;
+}
+#outUl > li > ol > li:hover
+{
+		background-color:green;
+}
+
+/*------------------------------------*/
+
+
+#outUl > li > ol > li:hover > a
+{
+		/*old - not needed? --> display:block; */
+		/* #outUl a --> is enough to get rid of underline for whole menu -- text-decoration:none;*/
+		color:#082601;	
+		/*no anchor only for list item -> background-color:green;	*/	
+}
+
+
+/*STILL i DO NOT UNDERSTAND WHY  THE "CONTENT" TAB IN A MENU USED TO DISAPPEAR 
+   ----> THE MOST PROBABLE EXPLENATION IS THAT THE GOLDEN RULE HAS BEEN ALTERED
+   
+   GOLDEN RULE: CHANGE background-color in <li> (child tag) CHANGE color in <a> (child tag)  
+   
+   Golden Rule II => text-decoration:none; only at (ol a) REMEMBER Not: (ol > a) !!!
+                              and list-style-type:none; only at (ol) / (ul)
+							  and border-radius:10px; at (> li ) child!
+							  
+							  and background-color:transparent; only at main ul or ol atribute
+							  and display: inline-block; only at main ul or ol atribute
+   
+   
+   */

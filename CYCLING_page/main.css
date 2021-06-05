@@ -1,0 +1,124 @@
+
+h3{
+	font-family: 'Lato', sans-serif;	
+}
+
+body{
+		/*background-color: #5cb85c;*/
+		background-color: #FF6600;
+		font-family: 'Lato', sans-serif;
+		
+}
+
+.container-fluid
+{
+	max-width:900px;
+}
+
+.gajadescription{
+
+	text-align: center;
+	padding:0;
+}
+
+.gajahome{
+
+	text-align: center;
+	padding:0;
+}
+
+.gajahome img{
+	width:100%;
+	height:auto;
+}
+
+.headergaia{
+background-color:white;
+font-size:50px;
+/*text-shadow:1px 1px #5cb85c;*/
+}
+.headergaia2
+{	
+	padding:10px;
+	background-color:white;
+	font-size:35px;
+}
+
+#contactheader{
+	
+	margin-top:5%;
+	text-align:center;
+}
+
+.miniaddresslogo{
+	font-size:26px;
+	font-family: 'Oswald', sans-serif;
+}
+
+i{
+	font-size:42px;
+}
+
+textarea{
+padding-top:50px;
+
+}
+
+.contactform{
+text-align:right;
+/*margin:auto;*/
+margin-top:20px;
+}
+
+.stayintouch{
+text-align:right;
+}
+
+figure
+{
+border:6px solid white; 	
+border-radius:10px;
+}
+
+figcaption
+{
+	border-top:6px solid white;
+	
+}
+
+.underline { 
+ border-top:6px dashed white;
+ border-bottom:6px dashed white;}
+
+/*everything whats connected to navbars*/
+
+.navbar-nav li:hover>.dropdown-menu{
+	display:block;
+}
+
+.navbar{
+	min-height:70px;
+}
+
+.dropdown-menu
+{
+	/*background-color: #5cb85c;*/
+	
+}
+
+.dropdown-item:hover{
+	background-color:white;
+}
+/*-----------------------------------------------------*/
+
+.footerContainer
+{	
+	background-color:white;
+	text-align:center;
+	font-size:26px;
+	padding:10px;
+	font-family: 'Oswald', sans-serif;
+}
+
+
+

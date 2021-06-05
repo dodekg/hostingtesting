@@ -1,0 +1,128 @@
+body 
+{
+	font-family:arial;
+	background-color:lightblue;
+	color:#00F;
+	/*background-color:lightblue;
+	color:#00F;
+	font-family: 'Ranchers', cursive;
+	color:#0000FF;*/
+}
+
+.mylink
+{
+	text-decoration:none;
+	color:blue;	
+}
+
+.mylink:hover
+{
+	text-decoration:none;
+	color:white;
+}
+
+
+
+
+.blue
+{
+	color:#0000FF;
+	text-align:center;
+	font-family:arial;
+	width:590px;
+}
+
+img
+{
+	width:300px;
+	border:5px solid #0000FF;
+}
+
+
+#wrapper
+{
+	margin-top:none;
+	max-width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+#navbar ul
+{
+	list-style-type:none;
+	margin:20px 0px 20px 0px;
+	padding:0px;
+	font-family: 'Ranchers', cursive;
+	
+}
+
+#navbar li
+{	
+	float:left;
+	text-align:center;
+}
+
+
+#navbar a
+{	
+	display:block;
+	text-decoration:none;
+	text-transform:uppercase;
+	width:300px;
+	color:blue;
+	background-color:white;
+	font-style:bold;
+	font-size:60px;
+	
+}
+
+#navbar a:hover
+{
+	background-color:blue;
+	color:lightblue;
+	
+}
+
+#maintext
+{
+	/*background-color:black;*/
+}
+
+h1
+{ 
+	font-size:40px;
+	text-align:center;
+	padding:0px;
+	margin:20px 0px;
+	color:blue;
+	font-family: 'Ranchers', cursive;
+}
+
+.h2cent
+{
+	text-align:center;
+	font-family:arial;
+	
+}
+
+h2
+{
+	text-align:left;
+	/*font-family: 'Ranchers', cursive;*/
+}
+
+#picture3
+{
+	width:890px;
+}
+
+.footer
+{	
+	font-size:30px;
+	text-align:center;
+	font-family: 'Ranchers', cursive;
+	
+}
+
+

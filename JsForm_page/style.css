@@ -1,0 +1,13 @@
+body {
+	background-color: #1F0000;
+	color:#ffffff;
+}
+
+#commentlabel {
+	resize:none;
+}
+
+#middleIt{
+	margin-right:auto;
+	margin-left:auto;
+}

@@ -1,0 +1,257 @@
+body
+{
+background-color:#082601;
+border:solid darkgreen 5px;
+border-bottom:none;
+margin:auto;
+padding-top:none;
+}
+
+
+/*-------------------------------------------------header above main menu ---------------------*/
+
+#header1
+{
+border-radius:0px 0px 100px 0px;
+background-color:green;
+border:5px solid darkgreen;
+border-left:none;
+border-top:none;
+margin-top: none;
+padding-top:0px;
+height:100px;
+
+
+}
+
+#header2
+{
+border-radius:0px 0px 200px 0px;
+background-color:darkgreen;
+border:solid darkgreen 5px;
+border-left:none;
+border-top:none;
+margin-top: none;
+padding-top:0px;
+height:120px;
+
+
+}
+
+#logo
+{
+	display:inline-block;
+	float:left;
+}
+
+img
+{
+	display:block;	
+}
+
+.special
+{
+	
+float:left;
+margin-left:50px;
+
+}
+
+#clock 
+{ 
+
+margin-left:200px;
+font-size:30px;
+color:green;
+
+
+}
+
+
+.lastdiv
+{
+	clear:both;
+	
+}
+
+
+.topword
+{
+	font-size:72px;
+	margin:auto;
+	text-align:center;
+	color:darkgreen;
+	letter-spacing:10px;
+	
+	
+		animation-name: topw;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+
+
+/*----------------------CSS content that is refering to Bootstrap menu navbar !!-----------*/
+
+
+
+.barcolor
+{
+	background-color:#082601  !important;
+	color:green;
+}
+
+.navbar-light
+{
+	background-color:green;
+	
+}
+
+.nav-item
+{
+	margin-left:10px;
+	margin-right:10px;
+	border:2px solid green;
+	border-radius:20px;
+	width:150px;
+	text-align:center;
+}
+
+.nav-item:hover
+{
+	background-color:green;
+
+}
+
+
+.nav-link
+{
+	text-decoration:none;
+	color:green;
+}
+
+
+.nav-link:hover
+{
+	text-decoration:none;
+	color:#082601;
+}
+
+
+
+.navbar-nav
+{
+	margin-left:10px;
+
+}
+
+.nav-item dropdown
+{
+	border-radius:20px;
+	background-color:#082601;
+	
+	
+}
+
+.dropdown-menu
+{
+		background-color:transparent;
+		border:none;
+
+}
+
+
+
+
+.dropdown-item
+{
+	margin-left:10px;
+	margin-right:10px;
+	border:2px solid green;
+	border-radius:20px;
+	width:150px;
+	text-align:center;
+	background-color:#082601;
+	color:green;
+}
+
+.dropdown-item:hover
+{
+	margin-left:10px;
+	margin-right:10px;
+	border:2px solid green;
+	border-radius:20px;
+	width:150px;
+	text-align:center;
+	background-color:green;
+	color:#082601;
+}
+
+
+
+
+.bgcolorful:hover
+{
+	
+	color:#082601;
+}
+
+
+
+
+
+
+
+/*--------------------------website content-----------------------------------------------------*/
+
+#content
+{
+	padding: 10px;
+	margin: auto ;
+	border-left:  10px solid #082601;
+	border-right:  10px solid #082601;
+	border-top:10px solid #082601;
+	border-bottom:none;
+	height:100%;
+	background-color:lightgreen;
+
+
+
+	border-radius:20px;
+	
+	
+		animation-name: content;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+
+}
+
+
+@keyframes content{
+	0%{background-color:lightgreen;}
+
+	30%{background-color:green;}
+
+	60%{background-color:lightgreen;}
+  
+	90%{background-color:yellow;}
+
+	100%{background-color:lightgreen;}
+}
+
+
+@keyframes topw{
+	0%{color:lightgreen;}
+
+	30%{color:yellow;}
+
+	60%{color:lightgreen;}
+  
+	90%{color:darkgreen;}
+	
+		100%{color:lightgreen;}
+
+}
+
+
+
+

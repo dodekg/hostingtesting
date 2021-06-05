@@ -1,0 +1,97 @@
+body
+{
+	
+	background-color:black;
+}
+nav
+{
+	
+	/*text-align:center;*/
+}
+
+#outUl
+{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	/*display:inline-block;*/ /*    <= When I comment inline-block here! - menu collapse starts to work how it should!!!!!!!!!!*/
+	background-color:transparent;
+
+}
+
+#outUl a
+{
+	color:green;
+	text-decoration: none;
+	display: block;
+}
+
+#outUl > li
+{
+		float:left;
+		height:100%;/*this is tricky - you need to be sensitive setting this value to get propper result*/
+		border:1px solid green;
+		border-radius:20px;
+		background-color:#082601;
+		text-align:center;
+		width:100px;
+}
+/*-----------This part doesnt exist in a correct solution from the internet ;) --------
+
+#outUl > li > a
+---------------------------------------------------------------*/
+#outUl > li:hover
+{
+	background-color:green;
+}
+#outUl > li:hover > a
+{
+	color:#082601
+}
+
+#outUl > li > ol
+{
+		padding:0;
+		margin:0;
+		height:100%;/*this height is important thou it is not displayed its in a background!!*/
+		list-style-type:none;
+		display:none;
+}
+
+#outUl > li:hover > ol
+{
+	display: block;
+}
+
+#outUl > li > ol > li 
+{
+		background-color:#082601;	
+		position:relative;
+		z-index:100;
+		border:1px solid green;
+		border-radius:20px;
+}
+#outUl > li > ol > li:hover
+{
+		background-color:green;
+}
+
+#outUl > li > ol > li:hover > a
+{
+		color:#082601;	
+}
+
+/*STILL i DO NOT UNDERSTAND WHY  THE "CONTENT" TAB IN A MENU USED TO DISAPPEAR 
+   ----> THE MOST PROBABLE EXPLENATION IS THAT THE GOLDEN RULE HAS BEEN ALTERED
+   
+   GOLDEN RULE: CHANGE background-color in <li> (child tag) CHANGE color in <a> (child tag)  
+   
+   Golden Rule II => text-decoration:none; only at (ol a) REMEMBER Not: (ol > a) !!!
+                              and list-style-type:none; only at (ol) / (ul)
+							  and border-radius:10px; at (> li ) child!
+							  
+							  and background-color:transparent; only at main ul or ol atribute
+							  and display: inline-block; only at main ul or ol atribute
+   
+   
+   */

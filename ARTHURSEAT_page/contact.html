@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!--external-style-sheet--->
+	<link rel="stylesheet" type="text/css" href="css/style.css" >
+	
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet"> 
+	
+	<!------------VALIDATON-SCRIPT----------------->
+	<script>// Example starter JavaScript for disabling form submissions if there are invalid fields
+	(function() {  'use strict';   window.addEventListener('load', function() {     
+	// Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+	// Loop over them and prevent submission 
+	var validation = Array.prototype.filter.call(forms, function(form) 
+	{      form.addEventListener('submit', function(event) {if (form.checkValidity() === false) 
+	{           event.preventDefault();  
+	event.stopPropagation();} form.classList.add('was-validated'); 
+	}, false);     });   }, false); })(); 
+	</script> 
+	<!-----------END-OF-VALIDATON-SCRIPT----------------->
+
+    <title>Lukasz Galik Website</title>
+  </head>
+  <body>
+		<!--header with navbar inside-->
+		<header>
+			<nav class="navbar navbar-dark bg-dark navbar-expand-md" role="navigation">
+				<div class="container">
+					
+					<!--logo-->
+					<div>
+						<a class="navbar-brand" href="index.html">
+							<img src="images/arthurs_seat.png" title="from www.citi-wise.com" alt="Thumbnail of Arthurs Seat"  class="logoBrand">
+						</a>
+					</div>
+					
+					<!--toggler button-->
+					<button class="navbar-toggler" type="button"
+						data-toggle="collapse" data-target="#globalNav"
+						aria-controls="globalNav" aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<!--navbar menu-->
+					<div class="collapse navbar-collapse" id="globalNav">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="about.html">About</a>
+							</li>
+							<li class="nav-item  active">
+								<a class="nav-link" href="contact.html">Contact</a>
+							</li>
+						</ul>
+					</div>
+					
+				</div>
+			</nav>
+		</header>
+		<!--header with navbar inside-->
+		
+		<!--empty divider-->
+		<div class="empty">
+		</div>
+		<!--/empty divider-->
+		
+		<!--beginig of main-->
+		<main class="container text-black-50">
+			
+			<!--form with two input parts and submit button-->
+			<form action="mailto:someone@example.com" method="post" class="needs-validation" novalidate>
+			
+				<div class="form-row">
+					<div class="form-group col-6">
+						<label>Email address</label>
+						<input class="form-control form-control-lg" type="email" placeholder="Enter email" required>
+						<small class="form-text text-muted">Your Email won't be shared with anyone</small>
+						<div class="valid-feedback">
+							Looking nice!
+						</div>
+						<div class="invalid-feedback">
+							Please, enter a valid email!
+						</div>
+					</div>
+				</div>
+				
+				<div class="form-group"
+					<label>Your massage!</label>
+					<textarea class="form-control form-control-lg" rows="4"  required minlength="2"></textarea>
+				</div>
+				<div class="form-group">
+					<input type="submit" value="Send!" class="btn btn-lg btn-danger" >
+				</div>
+			</form>
+			<!--/form with two input parts and submit button-->
+			
+			<!--text/img content section-->
+			<section class="container">
+				<div class="row">
+					<article class="col-md-9  text-secondary bg-dark">
+						<h1 class="inthemiddle">Discovering Edinburgh</h1>
+						<p class="lead">
+							Edinburgh it is an old and mystrious city.
+						</p>
+						<p class="lead">
+							Visit, See and Share your Experiance!
+						</p>
+						<img src="images/calton_hill_wiki2.jpg" alt="image of calton hill" title="image of Calton Hill from wikipedia">
+						<p>
+						Recognised as the capital of Scotland since at least the 15th century,
+						Edinburgh is the seat of the Scottish Government,
+						the Scottish Parliament and the supreme courts of Scotland.
+						The city's Palace of Holyroodhouse is the official residence of the monarch in Scotland.
+						The city has long been a centre of education,
+						particularly in the fields of medicine, Scots law, literature,
+						philosophy, the sciences and engineering. It is the second largest financial
+						centre in the United Kingdom (after London) and the city's historical and 
+						cultural attractions have made it the United Kingdom's second most visited
+						tourist destination attracting 4.9 million visits including 2.4 million
+						from overseas in 2018
+						</p>
+						<hr />
+					</article>
+					<article class="col-md-3 bg-success">
+						<h3 class="inthemiddle">One of Edinburgh secrets</h3>
+						<p class="lead">
+						Holyrood Innocent Railway nowadays serving as cycle path.
+						</p>
+						<img src="images/the_innocent_railway_wiki.jpg" alt="image of innocent railway sign" title="The Innocent Railway sign from wikipedia">
+						<p>
+						The Edinburgh and Dalkeith Railway was an early railway built
+						to convey coal from pits in the vicinity of Dalkeith into the capital. 
+						It was a horse-operated line, with a terminus at 
+						St Leonards on the south side of Arthur's Seat.
+						Opened in stages from 1831, it was Edinburgh's 
+						first railway, and used the track gauge of 4 ft 6 in, 
+						commonly used for mineral railways in Scotland. 
+						The entry into the terminus involved a passage through a tunnel on a rope-worked incline.
+						</p>
+						<hr />
+					</article>
+				</div>
+			</section>
+			<!--/text/img content section-->
+			
+			<!--empty divider-->
+			<div class="empty">
+			</div>
+			<!--/empty divider-->
+		
+			<!--footer part-->
+			<footer class="footer bg-dark">
+				<h3 class="text-white-50">Lukasz Galik is explaining.</h3>
+				<h5 class="text-white-50">The purpose of this website</h5>
+				<p>
+					This website has been made by Lukasz Galik as a part of course assesment at the Edinburgh College.
+					The choosen topic of "Arthur's Seat and Holyrood Park" was one of the available topics offered to 
+					every student taking in that subject. I made my topic choice of this website driven by my fascination and charm
+					of scottish nature, hills and unpredictable weather.
+				</p>
+			
+				<div class="container">
+				<hr />
+					<span class="text-muted">&copy; 2020 By Lukasz Galik</span>
+				<hr />
+				</div>
+			</footer>
+			<!--/footer part-->
+		</main>
+		<!--/end of main-->
+		
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

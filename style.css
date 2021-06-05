@@ -1,0 +1,90 @@
+
+body
+{/*
+background: rgba(91,187,200,1);
+background: -moz-linear-gradient(top, rgba(91,187,200,1) 51%, rgba(54,133,155,1) 77%, rgba(54,133,155,1) 96%, rgba(54,133,155,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(51%, rgba(91,187,200,1)), color-stop(77%, rgba(54,133,155,1)), color-stop(96%, rgba(54,133,155,1)), color-stop(100%, rgba(54,133,155,1)));
+background: -webkit-linear-gradient(top, rgba(91,187,200,1) 51%, rgba(54,133,155,1) 77%, rgba(54,133,155,1) 96%, rgba(54,133,155,1) 100%);
+background: -o-linear-gradient(top, rgba(91,187,200,1) 51%, rgba(54,133,155,1) 77%, rgba(54,133,155,1) 96%, rgba(54,133,155,1) 100%);
+background: -ms-linear-gradient(top, rgba(91,187,200,1) 51%, rgba(54,133,155,1) 77%, rgba(54,133,155,1) 96%, rgba(54,133,155,1) 100%);
+background: linear-gradient(to bottom, rgba(91,187,200,1) 51%, rgba(54,133,155,1) 77%, rgba(54,133,155,1) 96%, rgba(54,133,155,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5bbbc8', endColorstr='#36859b', GradientType=0 );*/
+   /* Background pattern from https://www.toptal.com/designers/subtlepatterns */
+background-image: url("imagesPortfolio/dark-grey-terrazzo.png");
+}
+
+header
+{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#logo
+{
+	width:810px;
+	height:60px;
+	color:darkgrey;
+	font-size:60px;
+	text-align: center;
+	text-transform:capitalize;
+	font-family: "Open Sans",sans-serif;
+	background-color:#222222;
+	margin-top:40px;
+	margin-left: auto;
+	margin-right: auto;
+
+	padding-top:15px;
+	padding-bottom:25px;
+	border-radius:10px
+}
+
+
+.container
+{
+	width:810px;
+	
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	padding-left:0px;
+	
+}
+
+.sizex
+{
+	max-width:200px;
+	max-height:200px;
+	opacity:0.5;
+	border-radius:20px;
+	background-size:100%;
+}
+
+.sizex:hover
+{
+	opacity:1;
+	
+}
+
+
+.thumb
+{
+	
+	width:200px;
+	height:200px;
+	margin:30px;
+	text-align:center;
+	display:inline-block;
+	border:5px solid #222222;/* teal;*/
+	border-radius:20px;
+	float:left;
+/*background-color:#222222;*/
+
+background: rgba(73,155,234,1);
+background: -moz-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(1,8,15,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(1,8,15,1)));
+background: -webkit-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(1,8,15,1) 100%);
+background: -o-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(1,8,15,1) 100%);
+background: -ms-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(1,8,15,1) 100%);
+background: linear-gradient(to bottom, rgba(73,155,234,1) 0%, rgba(1,8,15,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#01080f', GradientType=0 );
+}

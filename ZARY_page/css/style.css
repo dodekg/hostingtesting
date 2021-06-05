@@ -1,0 +1,33 @@
+.btn{
+font-size: 40px;
+background-color:teal;
+border:blue;
+}
+
+body{
+background-color:lightblue;
+}
+
+.navbar{
+background-color:teal!important;
+}
+
+.navbar-brand{
+color:lightblue!important;
+font-weight:bold;
+font-family:arial!important;
+}
+
+.navbar-brand:hover{
+color:white!important;
+}
+
+h1{
+	font-family: 'Sansita Swashed', cursive;	
+	text-align:center;
+	color:teal;
+}
+
+p{
+	color:teal;
+}

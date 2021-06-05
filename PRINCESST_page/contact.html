@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<!--meta tags-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="This is a Website about &quotePrinces Street&quote. The website is built as a project assesment at Edinburgh College. 
+		The website explains with images and desctiptions the character of Edinburgh main shopping street. The subject is divided into Princess Street Overview,
+		the History part and iteresting Leasure features that you can experiance." />
+		<meta name="keywords" content="Princes Street, shopping, Waverley, Scots Monument, Balmoral Hotel,
+		Vojtek Bear, Princess Street Gardens, Calton Hill, Registers House, Scottish National Gallery" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="author" content="Lukasz Galik" />
+		<!--/meta tags-->
+		
+		<title>This is a Princes Street Topic Page By LDG</title>
+		
+		<!-- add bootstrap css file-->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">			
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<!--external-style-sheet-->
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<!-- google fonts-->	
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+		<!--/google fonts-->
+		
+		<!--VALIDATON-SCRIPT-->
+		<script>// Example starter JavaScript for disabling form submissions if there are invalid fields
+		(function() {  'use strict';   window.addEventListener('load', function() {     
+		// Fetch all the forms we want to apply custom Bootstrap validation styles to
+		var forms = document.getElementsByClassName('needs-validation');
+		// Loop over them and prevent submission 
+		var validation = Array.prototype.filter.call(forms, function(form) 
+		{      form.addEventListener('submit', function(event) {if (form.checkValidity() === false) 
+		{           event.preventDefault();  
+		event.stopPropagation();} form.classList.add('was-validated'); 
+		}, false);     });   }, false); })(); 
+		</script> 
+		<!--END-OF-VALIDATON-SCRIPT-->
+	
+</head>
+<body>
+<!--navbar-->
+<header><!--navbar -fixed-top-->
+	<nav class="navbar navbar-expand-md navbar-dark">
+		
+		<!--logo-->
+		<a class="navbar-brand" href="index.html"><img src="images/PrincesSt_logo_gimp2_20201201.png" alt="Princes St Sign" title="home page" height="50" class="mr-5"/></a>
+		
+		<!--toggler-->
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+		data-target="#navBtn" aria-controls="navBtn"
+		aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<!--navbar menu-->
+		<div class="collapse navbar-collapse" id="navBtn">	
+			<ul class="navbar-nav">
+				<li class="nav-item mx-2">
+					<a class="nav-link" data-value="overview" href="index.html">Home</a>
+				</li>
+				<li class="nav-item mx-2">
+					<a class="nav-link" data-value="history" href="history.html">History</a>
+				</li>			
+				<li class="nav-item mx-2">
+					<a class="nav-link" data-value="leisure" href="leisure.html">Leisure</a>
+				</li>	
+				<li class="nav-item active mx-2">
+					<a class="nav-link" data-value="contact" href="contact.html">Contact</a>
+				</li>	
+			</ul>
+			
+		</div>
+	</nav>
+</header>
+<!--/navbar-->
+<main>
+	<section>
+		<div class="container2">
+			<!--form with two input parts and submit button -action="mailto:ec1700207@edinburghcollege.ac.uk"-->
+			<form  method="post" name="maincontact" class="needs-validation" data-netlify="true" novalidate>
+			
+				<div class="form-row">
+					<div class="form-group col-6">
+						<h2><label class="h2style">Email address</label></h2>
+						<input class="form-control form-control-lg" type="email" placeholder="Enter email" required>
+						<small class="form-text text-muted h4style">Your Email won't be shared with anyone</small>
+						<div class="valid-feedback h3correct">
+							Looking nice!
+						</div>
+						<div class="invalid-feedback h3wrong">
+							Please, enter a valid email!
+						</div>
+					</div>
+				</div>
+				
+				<div class="form-group">
+					<label class="h2style">Your message!</label>
+					<textarea class="form-control form-control-lg" rows="4"  required minlength="2"></textarea>
+				</div>
+				<div class="form-group">
+					<input type="submit" value="Send!" class="btn btn-lg MyBtn btn-light px-5" >
+				</div>
+			</form>
+			<!--/form with two input parts and submit button-->
+		</div>
+	</section>
+</main>
+<!--Footer-->
+<footer>		
+	<div class="footerContainer fixed-bottom">
+		<span>&copy; 2021 By Lukasz Galik</span>
+	</div>	
+</footer>
+<!--/Footer-->		
+	
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+</body>
+</html>
